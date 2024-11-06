@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* navbar resposive settings */
+@media (max-width: 768px) {
+   .nav-btn {
+      display: none;
+   }
+}
+.CodeMirror {
+   height: 340px !important;
+   color: #fff;
+}
+
+.CodeMirror-gutters {
+   background-color: #1d1e22 !important;
+}
+.CodeMirror-scroll {
+   background-color: #1d1e22 !important;
+}
