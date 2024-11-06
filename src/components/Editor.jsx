@@ -10,6 +10,7 @@ const Editor = ({ language, icon, value, onChange }) => {
    const handleChange = (editor, data, value) => {
       onChange(value);
    };
+
    return (
       <div className="w-full bg-black h-[52vh]">
          <div className="h-[50vh] w-full border border-[#464650] overflow-hidden">

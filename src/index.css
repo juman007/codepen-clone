@@ -19,3 +19,8 @@
 .CodeMirror-scroll {
    background-color: #1d1e22 !important;
 }
+
+.Controlled-editor .CodeMirror {
+   font-size: 16px;
+}
+
